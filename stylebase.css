@@ -1,0 +1,108 @@
+body
+{
+   padding: 0;
+   margin:0;
+   min-width: 700px;
+   color: #161717;
+   background-color: #99A1A1;
+   background-image: url('images/BG_Bleu.jpg');
+   background-attachment: fixed;
+   background-position: top left;
+}
+#insidecontent{
+ 	position : absolute;
+  	top: 15%; bottom: 15%;
+	left: 10%; right: 10%;
+	background-color: #E7E8E8;
+	margin: 0 auto;
+	padding: 0 auto;
+	box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.4);
+	border-radius: 10px 10px
+}
+ 
+input[type="text"]
+{
+	display : block;
+	position : relative;
+	left : 45%;
+}
+input[type="password"]
+{
+	display : block;
+	position : relative;
+	text-align : left;
+	left : 45%;
+}
+input[type="button"]{
+position : relative;
+	left : 45%;
+}
+.MessagePerso
+{
+	display : block;
+	position : relative;
+	text-align : left;
+	left : 45%;
+}
+.description
+{
+	position : absolute;
+	left : 25%;
+	display : block;
+	text-align : left;
+}
+.MessErrorPseudo
+{
+	position : absolute;
+	left : 57%;
+	visibility : hidden;
+	color : #F60101;
+}
+.MessErrorNom
+{
+	position : absolute;
+	left : 57%;
+	visibility : hidden;
+	color : #F60101;
+}
+.MessErrorPrenom
+{
+	position : absolute;
+	left : 57%;
+	visibility : hidden;
+	color : #F60101;
+}
+.MessErrorDate
+{
+	position : absolute;
+	left : 57%;
+	visibility : hidden;
+	color : #F60101;
+}
+.MessErrorEmail
+{
+	position : absolute;
+	left : 57%;
+	visibility : hidden;
+	color : #F60101;
+}
+.MessErrorMdp
+{
+	position : absolute;
+	left : 57%;
+	visibility : hidden;
+	color : #F60101;
+}
+.MessErrorVerif
+{
+	position : absolute;
+	left : 57%;
+	visibility : hidden;
+	color : #F60101;
+}
+.MessErrorPerso
+{
+	position : absolute;
+	left : 57%;
+	color : #F60101;
+}
